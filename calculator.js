@@ -21,7 +21,7 @@ window.addEventListener('DOMContentLoaded', function() {
   // Put some default values in the inputs
   // Call a function to calculate the current monthly payment
   function setupIntialValues() {
-    const values = { loan: 30000, term: 15 interest: 3.25 };
+    const values = { loan: 30000, term: 15, interest: 3.25 };
     const startAmount = document.getElementById("loanAmount");
     startAmount.value = values.loan;
     const startYears = document.getElementById("loanYears");
